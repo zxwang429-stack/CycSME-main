@@ -1,0 +1,14 @@
+## Available Code
+
+The current release includes selected code for reproducing the results presented in the paper.
+
+- `CRSNR/` — Code for the Cumulative Relative Signal-to-Noise Ratio (CRSNR) analysis.
+- `CRSNR/avg_CRSNR.py` — Main script for the CRSNR analysis.
+- `datasets/` — Dataset-related code.
+- `models/CycSMENet/` — Partial implementation of CycSME-Net.
+
+For details, please refer to the README in the `CRSNR/` directory.
+
+The current release provides the overall architecture of CycSME-Net, while the core implementation details of the cyclic-frequency-domain filtering module (HCPFilter) and the CAM generation and normalization are omitted.
+
+The complete model implementation, including the HCPFilter and CAM modules, together with the detailed data preprocessing and training procedures, will be publicly released after the publication of the paper.

@@ -1,0 +1,24 @@
+# CRSNR Analysis
+
+This directory provides the code for the Cumulative Relative Signal-to-Noise Ratio (CRSNR) analysis presented in the paper.
+
+The analysis is used to investigate the cumulative contribution of cyclic-frequency components and the variation of CRSNR with the cyclic-frequency range.
+
+## Data Preparation
+
+The noise samples N1–N6 are selected from the natural noise samples in the ShipsEar dataset. The remaining samples are collected from the ShipsEar and DeepShip datasets.
+
+All audio samples are downsampled to 16 kHz.
+
+For the time-frequency representation, a frame length of 50 ms × 16 kHz and a frame shift of 25 ms × 16 kHz are used. Therefore, the resulting spectrogram can be regarded as being sampled along the time axis with a period of 25 ms.
+
+Accordingly, the maximum cyclic frequency considered in the CRSNR analysis is
+
+amax=0.5 * (1 / 25ms) = 20 Hz
+
+## Usage
+
+Run the following script directly:
+
+```bash
+python avg_CRSNR.py
