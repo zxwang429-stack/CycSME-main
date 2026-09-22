@@ -9,5 +9,4 @@ The current release includes selected code for reproducing the results presented
 
 For details, please refer to the README in the `CRSNR/` directory.
 
-Some implementation details are not included in the current release. 
 The complete model implementation and detailed data preprocessing and training procedures will be publicly released after the publication of the paper.
